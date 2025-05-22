@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#myButton{
+    margin-top: 50px;
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+#myButton:hover{
+    background-color: antiquewhite;
+}
+
+#Label1, #Label2, #Label3{
+    font-size: 40px;
+}
