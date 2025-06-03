@@ -1,5 +1,5 @@
 /*
-    promise = an object that manages asynchronous oprations.
+    promise = an object that manages asynchronous operations.
               Wrap a promise object around {asynchronous code}
               "I promise to return a value"
               PENDING => RESOLVED or REJECTED
