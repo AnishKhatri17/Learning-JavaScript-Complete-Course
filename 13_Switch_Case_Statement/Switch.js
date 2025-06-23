@@ -33,7 +33,7 @@ switch(day){
 
 //Example 2
 
-let MarksObtained = 97;
+let MarksObtained = 98  ;
 // let MarksObtained = 87;
 // let MarksObtained = 71;
 // let MarksObtained = 60;
@@ -69,6 +69,34 @@ switch(true){
     case MarksObtained<40:
         Grade = "F";
         break;
+}
+
+if (MarksObtained >=90) {
+    console.log("Remarks: Outstanding Student.")
+}
+
+else if (MarksObtained >=80) {
+    console.log("Remarks: Excellent Student.")
+}
+
+else if (MarksObtained >=70) {
+    console.log("Remarks: very Good Student.")
+}
+
+else if (MarksObtained >=60) {
+    console.log("Remarks: Good Student.")
+}
+
+else if (MarksObtained >=50) {
+    console.log("Remarks: Average Student.")
+}
+
+else if (MarksObtained >=40) {
+    console.log("Remarks: Below Average Student.")
+}
+
+else{
+    console.log("Remarks: You need to seriously focus on your studies.....")
 }
 
 console.log(`Your Obtained Grade is : ` + Grade);
